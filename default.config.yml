@@ -12,7 +12,7 @@ sudoers_custom_config: ''
 #   # Allow users in admin group to use sudo with no password.
 #   %admin ALL=(ALL) NOPASSWD: ALL
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
+dotfiles_repo: https://github.com/boreBoar/dotfiles.git
 dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
 dotfiles_files:
@@ -24,31 +24,40 @@ dotfiles_files:
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
-  - autoconf
-  - bash-completion
-  - doxygen
-  - gettext
-  - gifsicle
-  - git
-  - github/gh/gh
+  - aircrack-ng
+  - bettercap
   - go
-  - gpg
-  - httpie
-  - iperf
-  - libevent
-  - sqlite
-  - mcrypt
-  - nmap
+  - helm
+  - libmagic
+  - neovim
   - node
-  - nvm
-  - php
-  - ssh-copy-id
-  - cowsay
-  - readline
-  - openssl
-  - pv
+  - ncurses
+  - pyenv
+  - pyenv-virtualenv
+  - jq
+  - tmux
+  - rke
+  - terraform@0.12
+  - tree
+  - htop
+  - kakoune
+  - tldr
   - wget
-  - wrk
+  - nmap
+  - bash-completion
+  - watch
+  - icu4c
+  - python@3.9
+  - gettext
+  - readline
+  - xz
+  - git
+  - cmake
+  - imagemagick
+  - gcc
+  - automake
+  - coreutils
+  - findutils
 
 homebrew_taps:
   - homebrew/core
@@ -56,18 +65,22 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
+  - jetbrains-toolbox
   - docker
   - dropbox
-  - firefox
-  - google-chrome
-  - handbrake
-  - licecap
-  - sequel-pro
+  - brave-browser
+  - noxappplayer
+  - purevpn
+  - google-cloud-sdk
   - slack
+  - android-file-transfer
+  - evernote
+  - steam
   - sublime-text
-  - transmit
-  - vagrant
+  - the-unarchiver
+  - vlc
+  - iterm2
+  - shift
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
